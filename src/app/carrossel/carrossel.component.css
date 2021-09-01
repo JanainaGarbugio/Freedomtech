@@ -1,0 +1,17 @@
+.card {
+
+    border-color: #488282;
+    
+    }
+    .container-fluid {
+     background-color: white;
+    }
+    .listbox{
+      shape-image-threshold: 1;
+    }
+
+    .bgsobrenos
+{
+    background-color: white;
+    height: 380px;
+}
