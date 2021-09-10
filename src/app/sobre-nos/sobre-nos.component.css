@@ -15,15 +15,16 @@
 }
 .ff
 {
-    margin:2px;
+    margin:5px;
     border: 5px;
-    border-color: black;
+    border-color: white;
     background-color: #eeeeee;
 }
 
-.bordas
+.margem
 {
-    border-radius: 10px;
+    padding-bottom: 20cm;
+    padding-top: 5cm;
 }
 
 .texto_centro
@@ -41,4 +42,40 @@ background-color: rgb(48, 82, 82);
 .textobranco
 {
     color: white;
+}
+
+.header-site {
+    background-image: url(../../assets/IMG/Design.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.p-10 {
+    padding-top: 20px;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.popup-color {
+    background-color: rgba(72, 130, 130, 0.6);
 }
